@@ -31,12 +31,8 @@ npm-debug.log
 
 
 /rs-temp-info
-temp
 /temp
-Temp
-!temp
 /!temp
-!Temp
 /!Temp
 
 package-lock.json
