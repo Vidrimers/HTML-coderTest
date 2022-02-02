@@ -1,0 +1,63 @@
+.header__inner {
+  padding-bottom: 1.5rem;
+}
+
+.header__block {
+  display: flex;
+  height: 10rem;
+  background: #7FAFF7;
+
+}
+
+.btn {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+  margin: 3rem;
+  color: white;
+  border-radius: 5px;
+
+  background: #A5C7F9;
+}
+
+.popup {
+  display: flex;
+
+  width: 40rem;
+  height: 40rem;
+
+  background: #fff;
+
+  align-items: center;
+  position: fixed;
+  top: -100%;
+  right: 0;
+  left: 50%;
+  justify-content: center;
+}
+
+.popup:target {
+  transform: translate(-50%, 0);
+  top: 20%;
+}
+
+.popup>p {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+.close {
+  padding: 0.8rem 1.5rem;
+
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #fff;
+
+  background: #7FAFF6;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+
+}

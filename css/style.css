@@ -1,4 +1,6 @@
-h1{
-  font-size: 36px;
-  font-weight: 900;
+.container{
+  margin: 0 auto;
+  background: #C0DBD9;
+  max-width: 120rem;
+  padding: 0 1.5rem;
 }

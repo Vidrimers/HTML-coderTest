@@ -1,0 +1,35 @@
+.block-2__inner{
+  padding-bottom: 10rem;
+}
+.block-2__items{
+  display: flex;
+  
+  background: #88B5BF;
+}
+.block-2__item{
+  display: flex;
+  flex-grow: 1;
+
+  /* width: 100%; */
+  padding: 7%;
+  margin: 3rem;
+
+  font-size: 5.3rem;
+  color: transparent;
+
+  background: #0D89B0;
+
+  justify-content: center;
+}
+.block-2__item:first-child::before{
+  content: '1';
+}
+.block-2__item:nth-child(2)::before{
+  content: '2';
+}
+.block-2__item:nth-child(3)::before{
+  content: '3';
+}
+.block-2__item:last-child::before{
+  content: '4';
+}
